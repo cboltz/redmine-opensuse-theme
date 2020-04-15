@@ -4,7 +4,7 @@ A free Redmine theme for modern browsers base on [PurpleMine 2](https://github.c
 
 We add some modify to match what needed.
 
-## Change colour base on colour pallete openSUSE.
+## Change color base on colour pallete openSUSE.
 
 on stylesheets/application.css
 
