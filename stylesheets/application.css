@@ -1352,7 +1352,7 @@ label.no-css {
  background-color:#f5f5f5
 }
 div.tabs:not(#main-menu) {
- height:32px;
+ height:43px;
  margin-bottom:20px
 }
 div.tabs:not(#main-menu)>ul {
@@ -7857,3 +7857,19 @@ a:hover {
   border-bottom: 1px solid rgba(0,0,0,0.5);
 }
 
+/* un-hide toolbar on comments */
+.journal .contextual {
+  float: none;
+  position: absolute;
+  top: 5px;
+  right: 0;
+  z-index: 1000;
+}
+
+/* remove border around dropdown icon (▼) */
+span.drdn-trigger {
+  background: none;
+  box-shadow: none;
+  border: none;
+  margin-left: 5px;
+}
